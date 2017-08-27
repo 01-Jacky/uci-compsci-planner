@@ -1,0 +1,22 @@
+*** In Progress ***
+
+Epic_2.0: Data visualization
+  Story: 
+    - I want to see the dependency graph of all the upper div courses I want to take. This includes the prereqs. 
+  
+Epic_1.1: Upper div planning
+  Story: 
+    - Topological sorting given courses user want to take
+    - Toplogical sorting given specialization user want to complete
+
+Epic_1.0: Basic web interface
+  Story:
+    WIP - From the site, select the upper divs I want to take. I will have to input the prereqs that I completed already
+    WIP - From the site, input all the prereqs I already completed and show me all the CS upper divs I can take.
+
+
+*** Completed ***
+
+Epic_0.1: Backbone and Console Output
+  Story:
+    DONE - I should enter my prereqs and see console output of all the upper divs I can take and ones offered this upcoming quarter.

@@ -1,9 +1,5 @@
-import itertools
-
 from bs4 import BeautifulSoup
-from urllib import urlopen
-
-import downloader
+import itertools
 import course as c
 
 

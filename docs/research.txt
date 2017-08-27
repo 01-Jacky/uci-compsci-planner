@@ -1,0 +1,2 @@
+- Use topological sorting give courses ordering, given a desired path of upper divs to take
+- Need to research a library for generating dependency graph
