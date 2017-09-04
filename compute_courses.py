@@ -20,6 +20,14 @@ def _at_least_one_satisfied(course_lst, completed):
 
     return False
 
+def get_courses_completed_prereqs(course_lst, completed_lst):
+    # Take away course completed
+    course_not_completed = [course for course in course_lst if course.id not in inputs.COURSE_COMPLETED]
+
+    # Find classes with prereqs completed
+    course_can_take = [course for course in course_not_completed
+                       if not course.graduate and compute_courses.prereq_satisfied(course.prerequisite, inputs.COURSE_COMPLETED)]
+
 
 
 

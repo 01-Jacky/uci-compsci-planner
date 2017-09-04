@@ -33,5 +33,5 @@ FALL_CS_COURSE_ID = [
     'COMPSCI 171',
     'COMPSCI 177',
     'COMPSCI 178',
-    'COMPSCI 183',
+    'COMPSCI 183'
 ]
