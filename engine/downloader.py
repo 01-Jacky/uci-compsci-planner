@@ -23,4 +23,4 @@ def get_courses_html():
 
 
 if __name__ == "__main__":
-    print get_html(URL_CS_ALL_REQ)
+    print get_courses_html()

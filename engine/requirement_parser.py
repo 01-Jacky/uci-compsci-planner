@@ -1,6 +1,6 @@
 from bs4 import BeautifulSoup
 import itertools
-import course as c
+from constants import course
 
 
 def parse_course(html):
@@ -23,7 +23,7 @@ def parse_course(html):
         prereq_list = _get_prereq_list(tr.findAll('td')[2])
 
         # print course_id + " " + course_title
-        course_list.append(c.Course(course_id, course_title, prereq_list))
+        course_list.append(course.Course(course_id, course_title, prereq_list))
 
     return course_list
 

@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block content %}
+    <h1>All upper divs you can take:</h1>
+    <ul>
+        {% for course in courses_can_take %}
+        <li>{{ "{} - {}".format(course.id, course.title) }}</li>
+        {% endfor %}
+    </ul>
+
+    <h1>All upper divs you can take this Fall:</h1>
+    <ul>
+        {% for course in courses_can_take_fall_17 %}
+        <li>{{ "{} - {}".format(course.id, course.title) }}</li>
+        {% endfor %}
+    </ul>
+{% endblock %}

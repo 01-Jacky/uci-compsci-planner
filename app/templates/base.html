@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {% if title %}
+  <title>{{ title }}</title>
+  {% else %}
+  <title>CS Upper Divs</title>
+  {% endif %}
+</head>
+
+<body>
+  <div class="nav">
+    <div>UCI Upper Div: <a href="/index">Home</a></div>
+    <hr>
+  </div>
+
+  <!-- Content-->
+  {% block content %}{% endblock %}
+
+
+</body>
+
+</html>
