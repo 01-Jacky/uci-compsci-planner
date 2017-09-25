@@ -13,7 +13,7 @@ Calculate the courses user can take (show all or show only courses offered in up
 
 ## Usage
 1) input courses completed in inputs.py 
-2) TEMPORARY: run __main__.py to see console. Working on web interface!
+2) TEMPORARY: run __main__.py to see console. Working on web interface!...
 
 Example console output:  
   
